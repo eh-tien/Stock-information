@@ -1,1 +1,1 @@
-# Stock-information
+This script lets a user input a stock ticker symbol, i.e 'aapl' for Apple, 'tsla' for Tesla and returns information on the stock the client wishes to view.           When the script is run, the closing stock price from January 1st 2000 until today's date is graphed with OHLC (Open, high, low, close) information preserved. Also a .csv file containing all relevant information is generated and stored in the same location as the script.           This .csv file can then be opened and analysed within Microsoft Excel, or used in machine learning deployments.
