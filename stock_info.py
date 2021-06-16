@@ -17,7 +17,7 @@ def plot_stock(stock):
     df = web.DataReader(name = stock, data_source='yahoo', start = start, end = end)
     #------ Restructure the data frame
     df2 = df[['Open','High','Low','Close']]
-    mpf.plot(df2,type = 'candle', title = f'{stock.upper()} closing price between 2000 and 2021',
+    mpf.plot(df2,type = 'candle', title = f'{stock.upper()} price between 2000 and 2021',
              mav = 7)
     plt.show()
 
