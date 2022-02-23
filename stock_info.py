@@ -21,7 +21,7 @@ def plot_stock(stock):
              mav = 7)
     plt.show()
 
-
+print('Complete')
 stock_to_csv(stock)
 plot_stock(stock)
     
